@@ -1,0 +1,8 @@
+It's chapter 1
+Command used :
+
+	xdg-open <file>
+	
+	#used to open files
+
+	
