@@ -1,0 +1,23 @@
+It's chapter 5.
+
+.gitignore FILE - a file store names of file that should be prevented from being added to staging area, hence not being commited.
+
+CREATING .gitignore FILE
+
+	$ touch .gitignore
+	
+	# file is created as an hidden file
+	# add files (one in each line) to be ignored
+	OR
+	# Go to Gitub/Gitignore
+	# search for files related to your project ( say javascript )
+	# copy and paste those files into your gitignore file.
+	
+	
+	NOTE :-
+			# == comment
+			*.<extension> == all file of this extension will be ignored 		
+
+		$ git rm --cached -r . 
+		
+		# command used for empty the staging area back to working directory
