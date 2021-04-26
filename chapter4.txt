@@ -1,0 +1,41 @@
+It's chapter 4
+
+PUSHING TO REMOTE DIRECTORY (GITHUB)
+
+step 1 : signup/login on github
+
+
+step 2 : CREATE REMOTE REPOSITORY
+
+		# click + button ( top right )
+		# click new repository
+		# fill Name, description and select public.
+		# don't tick any other option right now, 
+		# click Create repository
+
+
+step 3 : PUSHING LOCAL REPO TO REMOTE(Github)
+		
+		# copy the url of your github repo.
+		
+	#Open Terminal
+	
+		$ git remote add origin <your repo's url>
+		
+		# origin - conventional remote name.
+		# it created remote in our system enable us to push our local repo to Github(remote repo).
+		
+		$ git push -u origin <branch>
+		
+		# <branch> = master (default branch)
+		# -u link our remote and local repo
+		# push - push local repo to remote repo( specified repo and branch )
+		
+	NOTE : if ask for username and password, fill github username and password.
+	
+	
+step 4 : HANDLING REPO AT GITHUB
+	
+		# Go to your Repo on Github
+		# Go to Insights > Network
+		# Here u can see commits Graphically.
