@@ -1,2 +1,25 @@
 It's chapter 3
 
+command used :
+
+CHECK STATUS AFTER CHANGING FILE
+
+	$ git status
+	
+	# show 
+	# modified : <file>
+	# either add or recover previous version
+	
+SHOW CHANGES 
+
+	$ git diff <file>
+	
+	# reflect changes made in file
+	# red - deleted portion
+	# green - appended portion
+	
+RECOVER FILE
+
+	$ git checkout <file>
+	
+	# restore to latest version in local repository( commited versions )
