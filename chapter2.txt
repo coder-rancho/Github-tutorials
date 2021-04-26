@@ -1,0 +1,64 @@
+It's chapter 2
+
+command used :
+
+INSTALLING GIT
+	
+	$ sudo apt install git
+	
+	#Install git to the system
+NOTE : One-time command
+
+	
+INITIALIZING GIT
+	
+	$ git init
+	
+	#initializing git in working directory
+	#create an .git file
+	
+	$ ls -a
+	
+	#list all files including hidden files (for e.g. .git)
+	
+	$ git config --global user.email "<email of user>"
+	$ git config --global user.name "<name of user>"
+	
+	#created  a user globally
+	# without this we can't "add to staging area or commit changes"
+	
+	
+GIT COMMIT
+	
+	$ git status
+	
+	# check status of files(untracked or added) in working directory(or Branch).
+	# untracked files - changes made in file aren't monitored by git.
+	# added to staging area - monitored by git but not yet commited.
+	
+	$ git add <file>
+	
+	#add file to staging area
+	
+	OR
+	
+	$ git add .
+	
+	# add everything from working directory.
+	
+	$ git commit [ -m "<messege>"]
+	
+	#commit everything in staging area to working branch
+	# messege - specific messege of changes made.
+	
+	
+SHOW COMMITS
+	
+	$ git log
+	
+	# show info about commits
+	# info include - Unique hash , author , date and branch.
+	
+	
+	
+	
