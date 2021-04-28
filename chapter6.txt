@@ -3,3 +3,14 @@ created in master branch edited in GUIbranch
 
 BRANCHING USING GITHUB GUI
 
+  # Go to your repo page
+  # click on "switch branch button" (upper left corner, master button)
+  # create new branch (or switch btw existing branches)
+  # Make any changes to any file.
+  for e.g.
+      1. click on a file.
+      2. see Pencil icon (upper right corner).
+      3. edit file.
+  # Drop commit messege below
+  # select first option ( commit directly .......)
+  # click "commit changes"
