@@ -1,0 +1,46 @@
+It's chapter 1 of experimental brannh
+commands used here :
+
+BRANCHING : 
+	
+	$ git branch
+	
+	# show available branch
+	# * - working branch
+	
+	$ git branch <branch>
+	
+	# create a new branch (say experiment)
+	
+	$ git checkout <branch>
+	
+	# change working branch
+	# Any changes made to files in this branch will not reflect in master branch until and unless we merge them.
+	
+	# Make some changes to the files, if you like those changes then merge this branch to master branch
+	
+	$ touch chanpter1exp.txt
+	$ xdg-open chapter1exp.txt
+	
+	# created and edited this file while working in this branch
+	
+	$ git add .
+	$ git commit 
+	
+	# commit your changes before merging
+
+MERGING BRANCHES :
+	
+	$ git checkout master
+	
+	# switch to branch (in our case it's master) you wanna merge into.
+	
+	$ git merge <branch to be merged>
+	
+	# merge the specified branch
+	
+
+
+NOTE : Before merging, you can see changes in files of different branches by switching working branch. using the command :
+		
+		$ git checkout <branch>
