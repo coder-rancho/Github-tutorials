@@ -1,0 +1,54 @@
+It's chapter 7,
+FORKING AND CLONING
+
+
+FORKING 
+  
+  # copying someone else's repo in our account.
+  # this is done in order to fix bugs and add new feautures
+  # forked repo include all the info about the repo, including previous  commits.
+
+
+HOW TO FORK 
+  
+  # search for the repo that you wanna fork.
+  # fork using "fork button" in the top right corner.
+  # Now this repo will show up in your account.
+  # Do changes using github GUI or by cloning it to your system.
+  # Drop Pull request
+
+
+CLONING 
+  
+  # Create a copy of a repo in your system
+  # It transfer all the info about repo.
+  
+  
+HOW TO CLONE
+
+  # Click on Code (Green dropdown button)
+  # copy the provided link
+  # run the following command
+  
+  $ cd <path to clone repo>
+  $ git clone <copied url>
+  
+  # It'll copy all the files and folder to your system
+  # Edit and push back to Github.
+  
+DROPPING PULL REQUEST
+  
+  # After commiting changes, click on "Create pull request" (green button) on repo's home page on contributor's account.
+  # give name and description to your pull request.
+  # Now the owner of repo will either merge (accept pull request) or suggest changes.
+  
+
+ACCEPTING PULL REQUEST
+
+  # In owner's account, go to "Pull request" >> click on pull request from list to review.
+  # Click on "commits" to see and compare changes made.
+  # Click on "Review changes" (Green Button).
+  # Drop review summary and select one of three options comment, approve or request changes.
+  # click Merge pull request.
+  # Drop merging messege and "Confirm merge".
+  
