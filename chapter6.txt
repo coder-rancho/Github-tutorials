@@ -14,3 +14,12 @@ BRANCHING USING GITHUB GUI
   # Drop commit messege below
   # select first option ( commit directly .......)
   # click "commit changes"
+  
+MERGING VIA GUI
+  
+  # On repo's page, a messege pop up for unmerged branches.
+  # To merge branch, click on "compare and pull request" button.
+  # choose base as "master" and compare as "<your branch>".
+  # It'll show the changes between two branches.
+  # click on "Create pull request" button.
+  # give the merging messege and "confirm merge".
