@@ -1,0 +1,5 @@
+It's chapter 6
+created in master branch edited in GUIbranch
+
+BRANCHING USING GITHUB GUI
+
