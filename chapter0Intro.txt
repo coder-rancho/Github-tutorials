@@ -1,0 +1,25 @@
+About Git and Github
+
+
+What is Git?
+
+Git is a version control system.
+It is a software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
+Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+
+
+What is version control system?
+
+Version control systems are a category of software tools that helps in recording changes made to files by keeping a track of modifications done to the code. 
+
+
+What is GitHub?
+
+GitHub is a platform/provider of internet hosting for software/project development and version control using Git. It offers the distributed version control and source code management functionality of Git.
+There are some more such platforms like Bitbucket, GitLab etc. but the most popular is GitHub.
+Github allows us to host our git repositories online so that other people or our team members can see it as well.
+
+
+What is Git Repository (or simply, repo)?
+
+Repositories in Git contain a collection of files of various different versions of a Project. These files are imported from the repository into the local server of the user for further updations and modifications in the content of the file. A version control system is used to create these versions and store them in a specific place termed as a repository.
