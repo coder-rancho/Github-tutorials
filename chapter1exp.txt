@@ -1,4 +1,4 @@
-It's chapter 1 of experimental brannh
+It's chapter 1 of experimental branch
 commands used here :
 
 BRANCHING : 
